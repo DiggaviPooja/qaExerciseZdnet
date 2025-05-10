@@ -1,0 +1,18 @@
+Problem 1:
+	1.	I opened the website: http://www.zdnet.com/ and searched for the list of cloud platforms.
+	2.	The link I was looking for wasn’t on the first few pages. It sometimes appears on page 6, sometimes on page 7.
+	3.	So, thought to write a logic where loop to go through the first 10 pages and click the “Next” button until I find the correct link.
+
+But
+Problem 2 :
+As soon as the page loaded and searched for "list of cloud platforms" and Hit Enter -> it triggered a “I’m not a robot” human check.
+please check main/java/Test.java and also attached img_chrome and img_Firefox.png under src/test/java
+So, I decided to skip the search and directly open the article link:
+https://www.zdnet.com/article/the-top-cloud-providers-of-2021-aws-microsoft-azure-google-cloud-hybrid-saas/
+Because of this human check issue, I couldn’t implement step 3 (pagination and search).
+
+Problem 3 :
+Accept cookies while executing - handled successfully
+
+Problem 4 :
+click on view AWS button - it was bit tricky but able to solve using anchor tag
